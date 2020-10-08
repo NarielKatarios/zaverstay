@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="utf-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Spectral+SC:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <title>Заверстай</title>
+</head>
+<body class="page">
+  <header class="page-header container">
+    <!--<div class="container">-->
+      <div class="logo"><img src='img/OBJECTS.png'></div>
+      <nav class="main-menu">
+        <ul>
+          <li><a href="#articles">Статьи</a></li>
+          <li><a href="#about-me">Обо мне</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#write-me">Написать мне</a></li>
+        </ul>
+      </nav>
+      <!--<p><i>По всем вопросам пишите:</i><br><a href="mailto:enot_neopoznanniy@gmail.com">enot_neopoznanniy@gmail.com</a></p>-->
+    <!--</div>-->
+  </header>
+  <main>
+    <section class="articles container" id="articles">
+      <h2 class="section-title">Все статьи</h2>
+      <!--<button class="tag-button" type="button">Выбрать тему</button>-->
+      <select  class="tag-button filter">
+        <option value="choose" selected>Выбрать тему</option>
+        <option value="all">Все статьи</option>
+        <option value="travel">Путешествия</option>
+        <option value="city">Город</option>
+        <option value="books">Книги</option>
+        <option value="photos">Фотографии</option>
+        <option value="recipes">Рецепты</option>
+      </select>
+      <div class="cards">
+        <div class="article" data-category="travel">
+          <a href="article.html"><img src="img/Mask%20Group(0).png"></a>
+          <h3>Путешествие в Берлин в августе</h3>
+          <p>Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</p>
+          <p class="tag">Теги: путешествия<date>29.09.2020</date></p>
+
+        </div>
+        <div class="article" data-category="city">
+          <a href="article.html"><img src="img/Mask%20Group(1).png"></a>
+          <h3>Где выпить колдбрю в Москве</h3>
+          <p>Собрала для вас список любимых кофеен,
+            где подают лучший летний напиток.</p>
+          <p class="tag">Теги: город<date>24.07.2020</date></p>
+
+        </div>
+        <div class="article" data-category="books">
+          <a href="article.html"><img src="img/Mask%20Group(2).png"></a>
+          <h3>Прочитано: книжные рекомендации</h3>
+          <p>Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
+          <p class="tag">Теги: книги<date>15.07.2020</date></p>
+
+        </div>
+        <div class="article" data-category="photos">
+          <a href="article.html">
+          <!--<img src="img/Mask%20Group(3).png">-->
+          <h3>Снимки на плёнку</h3>
+          <p>Поделилась с вами весенними фотографиями,</br>
+            и секретами удачных снимков.</p>
+          <p class="tag">Теги: фотографии<date>29.06.2020</date></p></a>
+
+        </div>
+        <div class="article" data-category="recipes"><a href="article.html">
+          <!--<img src="img/Mask%20Group(4).png">-->
+          <h3>Домашний чизкейк </h3>
+          <p>Что может быть лучше чизкейка с сезонными
+            ягодами? Только домашний чизкейк!</p>
+          <p class="tag">Теги: рецепты<date>24.06.2020</date></p></a>
+
+        </div>
+      </div>
+      <button class="show-button" type="button">Показать ещё</button>
+
+    </section>
+    <section class="about-me container" id="about-me">
+      <h2 class="section-title">Обо мне</h2>
+      <div class="profile"><p>Всем привет! Меня зовут Аня, и это мой личный блог.</br>
+        Здесь ты найдёшь рассказы о моих путешествиях, снимки
+        на плёнку, рецепты, обзоры на книги. В общем, тексты о том,
+        что мне инетресно.</p>
+      <p>Я работаю копирайтером, поэтому мой блоге — это ещё и моё
+        портфолио. Ниже размещены несколько моих лучших
+        рабочих текстов. Буду рада новым сотрудничествам!  </p>
+      <p>Если вы хотите написать мне — это можно сделать в соцсетях
+        или через <span>форму</span>. Всегда приятно услышать обратную связь
+        от читателей и познакомиться поближе.</p>
+        <p>Приятного чтения!</p>
+        <p>Я верю, что каждый раз пробуя новое,
+          выходящее за зону моего комфорта,
+          я действительно узнаю настояющую
+          себя.</p>
+      </div>
+    </section>
+    <section class="portfolio container" id="portfolio">
+      <h2 class="section-title">Портфолио</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Блог HTML Academy</h3>
+          <h4>«Как учиться продуктивно»</h4>
+          <p>Про основные методы обучения,</br>
+            которые помогут быстро и надолго</br>
+            запомнить информацию.</p>
+        </div>
+        <div class="card">
+          <h3>Журнал «LNK»</h3>
+          <h4>«Зачем поцели нужны человеку?</br>
+            И какие они бывают»</h4>
+          <p>Поцелуи — повсеместная ежедневная</br>
+            практика. Но зачем люди целуются?</br>
+            Какие смысли вкладывают в этот ритуал?</br>
+            И где корни этой практики?</p>
+        </div>
+        <div class="card">
+          <h3>Журнал «Т — Л»</h3>
+          <h4>«Советы по эффективной</br>
+            удалённой работе»</h4>
+          <p>Поделилась лайфхаками, которые помогают</br>
+            мне работать продуктивно из дома.</p>
+        </div>
+      </div>
+      <button class="show-button" type="button">Показать ещё</button>
+    </section>
+    <section class="write-me container" id="write-me">
+      <h2 class="section-title">Написать мне</h2>
+      <form method="post" class="fields">
+        <div  class="fields">
+          <div class="field">
+          <label for="username">Ваше имя</label>
+          <input type="text" id="username" name="username" value="Иван Иванов" required>
+        </div>
+          <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name='email' value="google@gmail.com" required>
+        </div>
+          <div class="field">
+          <label for="messages">Сообщение</label>
+          <textarea id="messages" minlength="10" maxlength="200">Напишите здесь ваше сообщение.</textarea>
+        </div>
+        </div>
+        <input class="submit submit-button" type="submit" value="ОТПРАВИТЬ">
+      </form>
+    </section>
+  </main>
+  <footer class="page-footer container">
+      <ul>
+        <li><a href="#">Вк</a></li>
+        <li><a href="#">Телеграм</a></li>
+        <li><a href="#">Инстаграм</a></li>
+        <li><a href="#">Твиттер</a></li>
+      </ul>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
